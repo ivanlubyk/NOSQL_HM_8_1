@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nosql-8-web"
+version = "0.1.0"
+description = ""
+authors = ["Іван Лубик <126516121+ivanlubyk@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "nosql_8_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.4.0"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
